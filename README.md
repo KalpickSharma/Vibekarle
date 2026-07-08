@@ -1,32 +1,47 @@
-# React + TypeScript + Vite
+# VibeKarle
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+> Find Your Vibe. Meet Your Tribe.
 
-Currently, two official plugins are available:
+VibeKarle is India's modern Third Space where people discover events, meet like-minded people, attend meetups, travel together, explore unique experiences, and build meaningful offline connections beyond work and home.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Tech Stack
 
-## React Compiler
+- React 18
+- TypeScript
+- Vite 5
+- Tailwind CSS v3
+- Framer Motion 11
+- Lucide React
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Getting Started
 
-## Expanding the Oxlint configuration
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/KalpickSharma/Vibekarle.git
+   ```
+2. Install dependencies:
+   ```bash
+   npm install
+   ```
+3. Run the development server:
+   ```bash
+   npm run dev
+   ```
+4. Open [http://localhost:5173/](http://localhost:5173/) in your browser.
 
-If you are developing a production application, we recommend enabling type-aware lint rules by installing `oxlint-tsgolint` and editing `.oxlintrc.json`:
+## Features
 
-```json
-{
-  "$schema": "./node_modules/oxlint/configuration_schema.json",
-  "plugins": ["react", "typescript", "oxc"],
-  "options": {
-    "typeAware": true
-  },
-  "rules": {
-    "react/rules-of-hooks": "error",
-    "react/only-export-components": ["warn", { "allowConstantExport": true }]
-  }
-}
-```
+- **Premium Design:** Modern, minimal, glassmorphism, soft gradients, and high-end startup aesthetic in dark mode.
+- **Interactive Background:** Animated canvas stars, aurora blobs, letter rain, and floating icons.
+- **Custom Cursor:** Magnetic ring cursor with smooth animation that transforms on clickable elements.
+- **Scroll Animations:** Smooth reveal animations using Framer Motion.
+- **Horizontal Scrolling:** Experiences section with horizontal card scroll.
+- **Auto-sliding Carousel:** Testimonials carousel.
 
-See the [Oxlint rules documentation](https://oxc.rs/docs/guide/usage/linter/rules) for the full list of rules and categories.
+## Design Assets
+
+- Primary Color: `#7B61FF`
+- Secondary Color: `#1CC8FF`
+- Accent Color: `#9B5CFF`
+- Background: `#09090B`
+- Typography: Space Grotesk (Headings), Inter (Body)
